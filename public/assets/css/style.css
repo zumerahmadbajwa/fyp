@@ -1,0 +1,161 @@
+body {
+  font-family: "Cataman", sans-serif;
+}
+
+.sidenav {
+  height: 100%;
+  width: 170px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: rgb(122, 12, 102);
+  overflow-x: hidden;
+  padding-top: 20px;
+}
+
+.sidenav a {
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 120%;
+  color: #ffffff;
+  display: block;
+}
+
+.sidenav a:hover {
+  color: #e7ab45;
+}
+
+.bgcolor {
+  background-color: rgb(122, 12, 102);
+  color: white;
+}
+
+.backlogincolor {
+  background-color: white;
+  color: rgb(122, 12, 102);
+}
+
+.button {
+  display: inline-block;
+  border-radius: 4px;
+  background-color: #f4511e;
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 28px;
+  padding: 20px;
+  width: 200px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+}
+
+.button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.button span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.button:hover span {
+  padding-right: 25px;
+}
+
+.button:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+
+.buttonx {
+  width: 50%;
+}
+
+.button1:hover {
+  box-shadow: 0 17px 50px 0 rgb(122, 12, 102);
+}
+
+.button2:hover {
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+/* .paginationcolor {
+  height: 36px;
+  margin: 18px 0;
+  background-color: rgb(122, 12, 102);
+  color: #ffffff;
+} */
+
+.main {
+  margin-left: 200px; /* Same as the width of the sidenav */
+  font-size: 28px; /* Increased text to enable scrolling */
+  padding: 0px 10px;
+}
+
+.textcolor {
+  color: rgb(122, 12, 102);
+}
+
+.btnstyle {
+  color: #ffffff;
+}
+
+.btnstyle:hover {
+  color: #e7ab45;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+.backgroundImage {
+  Position:fixed;
+  Top: 0;
+  Bottom: 0;
+  Width: 100vh;
+  Height: 100vh;
+  Opacity: 0.25;
+  Z-index: -5000;
+}
+.backgroundImage img {
+  width:100vw;
+  height: 100vh;
+}
+.content {
+  padding: 30px;
+}
+.center {
+  padding: 200px 0 0 0;
+  text-align: center;
+  color: purple;
+  font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.center1 {
+  padding: 100px 200px 0 200px;
+  text-align: center;
+  color: purple;
+  font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.centerDown {
+  padding: 0 0 0 0;
+  text-align: center;
+  color: purple;
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.para {
+  padding: 200px 200px 0 200px;
+  text-align: center;
+  color: purple;
+  font-family:Georgia, 'Times New Roman', Times, serif;
+}
